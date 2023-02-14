@@ -78,7 +78,7 @@
 
 /* Start About area */
 .site-main .about-area{
-    padding: 8rem 5rem;
+    padding: 8rem 8rem;
 }
 .site-main .about-area .about-title h2 > span{
     display: block;
@@ -86,13 +86,14 @@
     letter-spacing: 10px;
 }
 .site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
+    padding: .4rem 0rem;
     text-align: justify;
 }
 .site-main .about-area .about-image > p{
-    padding: .4rem 5rem;
-    width: 30rem;
+    padding: .4rem ;
+    /* width: 35rem; */
 }
 /* End About area */
-
+/* tools */
+/* tools */
 /* ----------------------------------------------------------------------------------------- */
