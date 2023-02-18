@@ -98,32 +98,32 @@
 /* tools */
 .single-brand>img{
     height: 90px;
-    padding: 1.5rem;
+    padding: 1.2rem;
     filter: saturate(0%);
 }
 
 .site-main .brand-area{
-    padding: 1rem 20rem;
+    padding: 1rem 15rem;
     margin-top: 10rem;
     margin-bottom: 4rem;
 }
-.site-main .brand-area .first-row .col-lg-4{
+.site-main .brand-area .first-row .col-lg-3{
     display: flex;
     justify-content: center;
 }
-.site-main .brand-area .first-row .col-lg-4> .single-brand{
-    border: 1px solid var(--border-color);
+.site-main .brand-area .first-row .col-lg-3> .single-brand{
+    border: 1px solid rgba(250, 235, 215, 0.231);
     text-align: center;
     margin: .9rem .9rem;
-    width: 180px;
+    width: 200px;
     cursor: pointer;
 }
-.site-main .brand-area .first-row .col-lg-4> .single-brand:hover{
+.site-main .brand-area .first-row .col-lg-3> .single-brand:hover{
     box-shadow: var(--box-shadow);
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
-.site-main .brand-area .first-row .col-lg-4> .single-brand:hover > img{
-    filter: saturate(100%);
+.site-main .brand-area .first-row .col-lg-3> .single-brand:hover > img{
+    filter: saturate(150%);
 }
 .site-main .brand-area .experience-area{
     padding-left: 1rem;
@@ -134,7 +134,7 @@
 .site-main .brand-area .experience-area .years-area{
     background: url(../img/client-info-bg.png) no-repeat 45px 20px,#e029290a;
     margin: 10px;
-    box-shadow: 0px 0px 15px rgba(125, 124, 124, 0.224);
+    box-shadow: 0px 0px 35px rgba(125, 124, 124, 0.224);
     width: 400px;
     padding: 2rem 0;
     height: 18rem;
