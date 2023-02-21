@@ -166,4 +166,46 @@
 }
 
 /* tools */
+
+/* GRID AREA */
+
+.single-project{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 0px 10px black;
+    margin: 40px;
+}
+.single-project>img{
+    width: 100px;
+    padding: 2rem;
+}
+.single-project> .content{
+    color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+}
+/* GRID AREA */
+
+/* footer */
+footer{
+    background-color: rgb(229, 235, 255);
+    margin-top : 100px;
+}
+footer> .wrap-up{
+    transform: translateX(20%);
+    display: flex;
+    padding: 5rem;
+}
+footer>.wrap-up>div{
+    width: 100px;
+}
+footer > .wrap-up > .logos > a > img{
+    padding: 1rem;
+    height: 70px;
+}
+footer > .wrap-up > .logos > a > img:hover{
+    transform: scale(1.15);
+    filter: brightness(120%);
+}
+/* footer */
 /* ----------------------------------------------------------------------------------------- */
