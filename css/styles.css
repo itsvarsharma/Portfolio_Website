@@ -2,6 +2,7 @@
 @import url(./fonts.css);
 @import url(partials/_variables.css);
 @import url(./partials/_global.css);
+@import "compass/css3";
 /* ----------------------------------------------------------------------------------------------- */
 /* navigation */
 .navbar-brand{
@@ -167,24 +168,7 @@
 
 /* tools */
 
-/* GRID AREA */
 
-.single-project{
-    width: 400px;
-    height: 300px;
-    box-shadow: 0px 0px 10px black;
-    margin: 40px;
-}
-.single-project>img{
-    width: 100px;
-    padding: 2rem;
-}
-.single-project> .content{
-    color: var(--primary-color);
-    padding: 2rem;
-    text-align: center;
-}
-/* GRID AREA */
 
 /* footer */
 footer{
@@ -192,9 +176,8 @@ footer{
     margin-top : 100px;
 }
 footer> .wrap-up{
-    transform: translateX(20%);
     display: flex;
-    padding: 5rem;
+    padding: 5rem 20rem;
 }
 footer>.wrap-up>div{
     width: 100px;
@@ -207,5 +190,6 @@ footer > .wrap-up > .logos > a > img:hover{
     transform: scale(1.15);
     filter: brightness(120%);
 }
+
 /* footer */
 /* ----------------------------------------------------------------------------------------- */
