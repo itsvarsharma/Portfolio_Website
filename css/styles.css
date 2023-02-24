@@ -183,10 +183,10 @@
 
 .site-main > .services-area .services{
     background: rgba(248, 252, 253, 0.973);
-    padding: 2rem 0;
+    padding: 1rem 1rem;
     width: 16rem;
     margin: 5rem .5rem;
-    transition: box-shadow .7s ease;
+    transition: box-shadow .7s ease,transform .7s ease;
 }
 .sevices-img > img{
     width: 200px;
@@ -195,26 +195,25 @@
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
+    transform: scale(1.01);
 }
 /* End Services Area */ 
-
-
-
 /* footer */
 footer{
-    background-color: rgb(229, 235, 255);
+    background: rgb(231, 240, 243);
     margin-top : 100px;
 }
 footer> .wrap-up{
     display: flex;
-    padding: 5rem 20rem;
+    padding: 5rem 30rem;
 }
 footer>.wrap-up>div{
-    width: 100px;
+    width: 80px;
 }
 footer > .wrap-up > .logos > a > img{
-    padding: 1rem;
-    height: 70px;
+    padding: .5rem;
+    height: 50px;
+    filter: saturate(0);
 }
 footer > .wrap-up > .logos > a > img:hover{
     transform: scale(1.15);
