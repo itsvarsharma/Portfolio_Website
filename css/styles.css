@@ -100,7 +100,6 @@
 .single-brand>img{
     height: 90px;
     padding: 1.2rem;
-    filter: saturate(0%);
 }
 
 .site-main .brand-area{
@@ -342,7 +341,6 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   }
 }
 /* projects area */
-
 
 /* feedback area */
 .feedback {
