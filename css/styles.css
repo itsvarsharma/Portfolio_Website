@@ -116,6 +116,7 @@
 }
 .site-main .brand-area .first-row .col-lg-3> .single-brand{
     border: 1px solid rgba(250, 235, 215, 0.231);
+    border-radius: 10px;
     text-align: center;
     margin: .9rem .9rem;
     width: 200px;
@@ -123,7 +124,7 @@
 }
 .site-main .brand-area .first-row .col-lg-3> .single-brand:hover{
     box-shadow: var(--box-shadow);
-    transform: scale(1.2);
+    transform: scale(1.02);
 }
 .site-main .brand-area .first-row .col-lg-3> .single-brand:hover > img{
     filter: saturate(150%);
@@ -136,6 +137,7 @@
 }
 .site-main .brand-area .experience-area .years-area{
     background: url(../img/client-info-bg.png) no-repeat 45px 20px,#e029290a;
+    border-radius: 20px;
     margin: 10px;
     box-shadow: 0px 0px 35px rgba(125, 124, 124, 0.224);
     width: 400px;
@@ -175,7 +177,7 @@
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 4rem 2rem;
 }
 
 .site-main .services-area .services-title{
@@ -188,10 +190,12 @@
 
 .site-main > .services-area .services{
     background: rgba(248, 252, 253, 0.973);
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     width: 16rem;
-    margin: 5rem .5rem;
-    transition: box-shadow .7s ease,transform .7s ease;
+    text-align: justify;
+    margin: 5rem .3rem;
+    border-radius: 20px;
+    transition: box-shadow 1s ease,transform .5s ease;
 }
 .sevices-img > img{
     width: 200px;
@@ -200,7 +204,7 @@
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
-    transform: scale(1.01);
+    transform: translateY(-10px);
 }
 /* End Services Area */ 
 
