@@ -350,14 +350,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 /* projects area */
 /* sessions area....................................... */
 
-/* *,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-} */
+
 
 /* -------------------------------- 
 Component 
@@ -411,7 +404,6 @@ Component
 }
 
 .banner__link::after {
-  /* animated border */
   content: "";
   background-color: currentColor;
   height: 2px;
