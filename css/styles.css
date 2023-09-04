@@ -78,6 +78,23 @@
 }
 /* banner area */
 
+.libutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  width: 200px;
+  height: 42px;
+  border-radius: 36px;
+   background-color: #0A66C2;
+  background-color: var(--primary-color);
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+
 /* ----------------------------------------------------------------------------------------------------- */
 
 /* Start About area */
