@@ -95,7 +95,7 @@
   background: rgb(242, 246, 254);
   margin: 0 0 1rem;
   transition: box-shadow .5s ease,transform .5s ease;
-  margin-top: 0.5rem;
+  margin: 0.5rem 3rem;
 }
 
 .card-deck .card:hover ,.card-columns .card:hover {
