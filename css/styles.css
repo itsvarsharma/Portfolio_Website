@@ -464,7 +464,7 @@ Component
     padding: 10px;
     box-sizing: border-box;
   }
-  .form button {
+  /* .form button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -478,10 +478,10 @@ Component
     -webkit-transition: all 0.3 ease;
     transition: all 0.3 ease;
     cursor: pointer;
-  }
-  .form button:hover,.form button:active,.form button:focus {
+  } */
+  /* .form button:hover,.form button:active,.form button:focus {
     background: var(--primary-color)
-  }
+  } */
   
   
 
