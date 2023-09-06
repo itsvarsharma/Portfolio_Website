@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
@@ -19,42 +24,41 @@
     <!------------------------------ Navigation bar-------------------------- -->
     <header class="header_area">
         <div class="main-menu">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand px-3" href="#"><img src="./img/Varsha.png" alt="logo" class="img-fluid"
+                            style="height: 4rem"></a>
 
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-                <!-- <div class="container-fluid"> -->
-                <a class="navbar-brand" href="#"><img src="./img/Varsha.png" alt="logo" width="70px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.behance.net/varshasharma12">behance</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/itsvarsharma">GITHUB</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://leetcode.com/itsvarsharma">LEETCODE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">CONTACTS</a>
-                        </li>
-                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- <div class="ml-auto"></div> -->
+                        <ul class="navbar-nav ml-auto px-2 text-dark text-uppercase">
+                            <li class="nav-item active">
+                                <a class="nav-link px-3" href="#">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#about">ABOUT</a>
+                            </li>
+                            <li class="nav-item px-3"><a class="nav-link"
+                                    href="https://www.behance.net/varshasharma12">behance</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/itsvarsharma">GITHUB</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="https://leetcode.com/itsvarsharma">LEETCODE</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link" href="#contacts">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <!-- </div> -->
             </nav>
         </div>
     </header>
@@ -64,26 +68,27 @@
     <!-- --------------------------------------Main area------------------------ -->
     <main class="site-main">
         <!--ssssssssssssssssssss Banner area sssssssssssssssssssssssss -->
-        <section class="site-banner">
+        <section class="site-banner mt-5 pt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey!</h3>
-                        <h1 class="title-text text-uppercase"> I am Varsha</h1>
-                        <h4 class="title-text text-uppercase"> Developer | Designer | Artist</h4>
-                        <div class="site-buttons">
-                            <div class="d-flex flex-row flex wrap">
+                    <div class="col-lg-6 col-md-12 site-title mt-5 pt-5">
+                        <h2 class="m-0">Hey!</h2>
+                        <h1 class="text-uppercase" style="font-size: 5rem;"> I am <br><span class=""
+                                style="color: var(--primary-color); font-size: 6rem;">Varsha</span></h1>
+                        <h4 class="mb-4 text-dark"> Developer | Designer | Artist</h4>
+                        <div class="site-buttons ">
+                            <div class="d-flex flex-row text-left">
                                 <a href="mailto:itsvarsharma@gmail.com" target="_blank" rel="noopener noreferrer"
-                                    class="btn button primary-button mr-4 text-uppercase">Hire me</a>
-                                <p>&nbsp &nbsp &nbsp</p>
+                                    class="btn button primary-button mr-4 text-uppercase"> <span class="mx-4">Hire
+                                        Me</span></a>
                                 <a href="./Resume-Varsha.pdf" target="_blank" rel="noopener noreferrer"
-                                    class="btn button secondary-button mr-4 text-uppercase">Get cv</a>
-
+                                    class="btn button secondary-button mr-2 text-uppercase"> <span class="mx-4">Get
+                                        CV</span></a>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
+                        <div class="mt-2"></div>
                         <img src="./img/girl-with-laptop-chair-freelance-studying-concept-illustration-vector_199064-194.avif"
                             alt="banner" class="img-fluid">
                     </div>
@@ -93,19 +98,17 @@
         <!-- eeeeeeeeeeeeeeeeeeeeeee End of Banner area eeeeeeeeeeeeeeeeeeee -->
         <!-- --------------------------About area--------------------- -->
         <section class="about-area" id="about">
-            <div class="containerfluid">
-                <div class="row">
+            <div class="container-fluid p-5 m-3">
+                <div class="row px-3">
                     <div class="col-lg-6 col-md-12 about-image">
-                        <img class="img-fluid" src="./img/about.avif" alt="">
+                        <img class="img-fluid" src="./img/girl.webp" alt="">
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
-                        <h2 class="text-uppercase pt-5">
-                            <span>a</span>
-                            <span>little bit</span>
-                            <span>about me</span>
+                        <h2 class="text-uppercase  text-dark pt-3">
+                            <span style="color: var(--primary-color); font-size: 2.5rem;">about me</span>
                         </h2>
                         <div class="paragraph">
-                            <p class="para">
+                            <p class="para text-justify">
                                 My unique blend of UI/UX design and front-end development skills allows me to create
                                 designs that not only look great, but also function seamlessly.
                                 I have a deep understanding of user behavior and am able to translate user needs and
@@ -130,77 +133,77 @@
         <!-- -------------------------- End of About area--------------------- -->
 
         <!-- ---------------------------Start Brand area--------------------------- -->
-        <section class="brand-area">
+        <section class="tools-area mt-3 m-5 pt-4">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-12 col-md-12">
-                        <div class="first-row row">
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="first-row row m-5 p-4 d-flex">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo1.svg" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo1.svg" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo2.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo2.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo3.svg" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo3.svg" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo4.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo4.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo5.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo5.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo6.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo6.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo7.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo7.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo8.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo8.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo9.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo9.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo10.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo10.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo11.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo11.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
                                 <div class="single-brand">
-                                    <img src="./img/tools/Logo12.png" alt="">
+                                    <img class="img-fluid" src="./img/tools/Logo12.png" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg12 col-md-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="experience-area">
                             <div class="d-flex-flex-row years-area">
-                                <h2 class="p-3 years">2</h2>
+                                <h1 class="p-3 years display-2">2</h1>
                                 <h2>
                                     <span>Years</span>
                                     <span>Experience</span>
@@ -212,7 +215,7 @@
                                 <div class="call-now">
                                     <a href="mailto:itsvarsharma@gmail.com" target="_blank" rel="noopener noreferrer"
                                         class="h4">EMAIL NOW</a>
-                                    <span> itsvarsharma@gmail.com</span>
+                                    <span>itsvarsharma@gmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +363,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 col-sm-12 tile">
                     <img src='img/projects/portfolio.png' />
                     <div class="text">
