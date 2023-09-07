@@ -90,7 +90,7 @@
   justify-content: space-between;
 }
 .card-deck .card,.card-columns .card {
-  border: gainsboro 10px;
+  border: none;
   /* border-radius: 20px; */
   background: rgb(242, 246, 254);
   /* margin: 0 0 1rem; */
@@ -137,9 +137,6 @@
 Component 
 -------------------------------- */
 .session h1{
-  text-align: center;
-  font-size: 35px;
-  margin-top: 100px;
 }
 .banner {
   margin-top: 50px;
@@ -300,47 +297,16 @@ Component
 
 /* feedback area */
 .feedback {
-    width: 50vw;
     border-radius:20px;
-    padding: 5% 0 0;
-    margin: auto;
-  }
-  .form {
-    position: relative;
-    z-index: 1;
-    max-width: 70%;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
   }
   .form textarea {
-    outline: 0;
     background: #f2f2f2;
     width: 100%;
     border: 0;
     border-radius:10px;
-    margin: 0 0 15px;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 1rem;
+    /* box-sizing: border-box; */
   }
-  /* .form button {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: var(--gradient-color);
-    width: 40%;
-    border: 0;
-    border-radius:30px;
-    padding: 15px;
-    color: #FFFFFF;
-    font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
-  } */
-  /* .form button:hover,.form button:active,.form button:focus {
-    background: var(--primary-color)
-  } */
   
   
 
@@ -350,9 +316,8 @@ Component
 /* footer */
 .site-footer
 {
-    margin-top: 5rem;
     padding-bottom: 5rem;
-  background-color:aliceblue;
+  background-color:rgb(227, 233, 251);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
